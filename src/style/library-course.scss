@@ -3,7 +3,15 @@
     grid-template-columns: repeat(autofit, 1fr);
     grid-template-rows: 1fr 1fr;
 
-    &__title {
+    background-color: cornflowerblue;
+
+    &__title-arrow {
+        grid-row: 1/2;
+
+        display: flex;
+    }
+
+    &__arrow {
         grid-row: 1/2;
     }
 
