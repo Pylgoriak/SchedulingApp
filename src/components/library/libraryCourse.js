@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Icon from './icon';
+
 const Lorem = 'Lorem ipsum doler amet, consectetur adipiscing elit.';
 
 class LibraryCourse extends Component {
@@ -7,9 +9,9 @@ class LibraryCourse extends Component {
         return(
             <div className="library-course">
                 <label className="library-course__title">Problem Solving</label>
-                {/* icon Component */}
+                { Icon('fas fa-check', 'library-course__icon') }
                 {/* arrow Component */}
-                {/* action Button Component */}
+                { Icon('fas fa-plus-circle', 'library-course__action')}
                 <div className="library-course__description">
                     <label>Course Description</label>
                     <p>{Lorem}</p>
