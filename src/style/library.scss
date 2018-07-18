@@ -1,0 +1,10 @@
+.library {
+    grid-column: 1/2;
+
+    display: grid;
+    grid-template-rows: [titleStart] 100px [titleEnd courseStart] repeat(auto-fit, 1fr) [courseEnd];
+
+    &__title {
+        // grid-row: titleStart/titleEnd;
+    }
+}
