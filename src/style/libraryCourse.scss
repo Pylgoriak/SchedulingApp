@@ -1,9 +1,9 @@
-.library-course {
+.libraryCourse {
     display: grid;
     grid-template-columns: repeat(auto-fit, 1fr);
     grid-template-rows: 50px 1fr;
 
-    background-color: cornflowerblue;
+    background-color: rgb(168, 168, 168);
 
     &__title-wrapper {
         grid-row: 1/2;

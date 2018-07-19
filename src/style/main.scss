@@ -1,28 +1,7 @@
 @import 'variables';
+@import 'base';
 @import 'library';
 @import 'arrow';
-@import 'library-course';
-
-.home {
-    height: 100vh;
-    width: 100vw;
-
-    display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    grid-template-rows: 1fr;
-}
-
-.schedule {
-    grid-column: 3;
-    position: relative;
-    height: 100%;
-    width: 100%;
-}
-
-.gradient {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background: linear-gradient(120deg, $Purple 0%, $LightBlue 100%);
-    z-index: -10;
-}
+@import 'libraryCourse';
+@import 'schedule';
+@import 'scheduleCourse';

@@ -9,14 +9,14 @@ const Lorem = 'Lorem ipsum dolor sit amet, cum ornare, mi sollicitudin wisi elit
 class LibraryCourse extends Component {
     render() {
         return(
-            <div className="library-course">
-                <div className="library-course__title-wrapper">
-                    <label className="library-course__title">Problem Solving</label>
-                    { Icon('fas fa-check', 'library-course__icon') }
+            <div className="libraryCourse">
+                <div className="libraryCourse__title-wrapper">
+                    <label className="libraryCourse__title">Problem Solving</label>
+                    { Icon('fas fa-check', 'libraryCourse__icon') }
                 </div>
-                <Arrow className="library-course__arrow"/>
-                <Action className="library-course__action"/>
-                <div className="library-course__description">
+                <Arrow className="libraryCourse__arrow"/>
+                <Action className="libraryCourse__action"/>
+                <div className="libraryCourse__description">
                     <label>Course Description</label>
                     <p>{Lorem}</p>
                 </div>
